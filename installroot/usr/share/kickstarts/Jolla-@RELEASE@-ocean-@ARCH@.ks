@@ -1,7 +1,7 @@
-# DisplayName: Jolla river/@ARCH@ (release) 1
+# DisplayName: Jolla ocean/@ARCH@ (release) 1
 # KickstartType: release
-# DeviceModel: river
-# DeviceVariant: river
+# DeviceModel: ocean
+# DeviceVariant: ocean
 # Brand: Jolla
 # SuggestedImageType: fs
 # SuggestedArchitecture: armv7hl
@@ -13,18 +13,18 @@ part / --size 500 --ondisk sda --fstype=ext4
 
 ## No suitable configuration found in /tmp/sandbox/usr/share/ssu/kickstart/bootloader
 
-repo --name=adaptation-community-common-river-@RELEASE@ --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
+repo --name=adaptation-community-common-ocean-@RELEASE@ --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
 repo --name=apps-@RELEASE@ --baseurl=https://releases.jolla.com/jolla-apps/@RELEASE@/@ARCH@/
 repo --name=customer-jolla-@RELEASE@ --baseurl=https://releases.jolla.com/features/@RELEASE@/customers/jolla/@ARCH@/
 repo --name=hotfixes-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/hotfixes/@ARCH@/
 repo --name=jolla-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/jolla/@ARCH@/
 
 %packages
-patterns-sailfish-device-configuration-river
+patterns-sailfish-device-configuration-ocean
 %end
 
 %attachment
-### Commands from /tmp/sandbox/usr/share/ssu/kickstart/attachment/river
+### Commands from /tmp/sandbox/usr/share/ssu/kickstart/attachment/ocean
 /boot/hybris-boot.img
 /boot/hybris-updater-script
 /boot/hybris-updater-unpack.sh
@@ -154,7 +154,7 @@ export SSU_RELEASE_TYPE=release
 ### begin hybris
 pushd $IMG_OUT_DIR # ./sfe-$DEVICE-$RELEASE_ID
 
-DEVICE=river
+DEVICE=ocean
 EXTRA_NAME=@EXTRA_NAME@
 DATE=$(date +"%Y%m%d") # 20191101
 
