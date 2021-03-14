@@ -1,7 +1,7 @@
-%package -n patterns-sailfish-device-configuration-ocean
-Summary: Jolla Configuration ocean
-Requires: patterns-sailfish-device-configuration-common-ocean
-Requires: patterns-sailfish-device-adaptation-ocean
+%package -n patterns-sailfish-device-configuration-hannah
+Summary: Jolla Configuration hannah
+Requires: patterns-sailfish-device-configuration-common-hannah
+Requires: patterns-sailfish-device-adaptation-hannah
 
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
@@ -42,7 +42,7 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
 
-%description -n patterns-sailfish-device-configuration-ocean
-Pattern with packages for ocean configurations
+%description -n patterns-sailfish-device-configuration-hannah
+Pattern with packages for hannah configurations
 
-%files -n patterns-sailfish-device-configuration-ocean
+%files -n patterns-sailfish-device-configuration-hannah

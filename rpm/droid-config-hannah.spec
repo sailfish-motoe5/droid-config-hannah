@@ -1,11 +1,11 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device ocean
+%define device hannah
 %define vendor motorola
 
 %define vendor_pretty Motorola
-%define device_pretty moto g(7)
+%define device_pretty moto e(5) plus
 
 # Community HW adaptations need this
 %define community_adaptation 1
@@ -25,8 +25,8 @@ Obsoletes: ofono-configs-mer
 %define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-ocean.inc
-%include patterns/patterns-sailfish-device-configuration-ocean.inc
+%include patterns/patterns-sailfish-device-adaptation-hannah.inc
+%include patterns/patterns-sailfish-device-configuration-hannah.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:

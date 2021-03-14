@@ -1,15 +1,15 @@
-%package -n patterns-sailfish-device-adaptation-ocean
-Summary: Jolla HW Adaptation ocean
-Requires: droid-hal-ocean
-Requires: droid-hal-ocean-img-boot
-Requires: droid-hal-ocean-kernel-modules
-Requires: droid-config-ocean-sailfish
-Requires: droid-config-ocean-pulseaudio-settings
-Requires: droid-config-ocean-policy-settings
-Requires: droid-config-ocean-preinit-plugin
-Requires: droid-config-ocean-flashing
-Requires: droid-config-ocean-bluez5
-Requires: droid-hal-version-ocean
+%package -n patterns-sailfish-device-adaptation-hannah
+Summary: Jolla HW Adaptation hannah
+Requires: droid-hal-hannah
+Requires: droid-hal-hannah-img-boot
+Requires: droid-hal-hannah-kernel-modules
+Requires: droid-config-hannah-sailfish
+Requires: droid-config-hannah-pulseaudio-settings
+Requires: droid-config-hannah-policy-settings
+Requires: droid-config-hannah-preinit-plugin
+Requires: droid-config-hannah-flashing
+Requires: droid-config-hannah-bluez5
+Requires: droid-hal-version-hannah
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -96,7 +96,7 @@ Requires: camera-settings-plugin
 # !BROKEN Browser video acceleration
 #Requires: gmp-droid
 
-%description -n patterns-sailfish-device-adaptation-ocean
-Pattern with packages for ocean HW Adaptation
+%description -n patterns-sailfish-device-adaptation-hannah
+Pattern with packages for hannah HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-ocean
+%files -n patterns-sailfish-device-adaptation-hannah
